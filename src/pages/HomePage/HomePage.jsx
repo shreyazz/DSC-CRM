@@ -23,7 +23,7 @@ const HomePage = () => {
   }, [])
  
   return (
-    <div className="h-[90vh] w-full bg-slate-100 px-16 py-5 ">
+    <div className="h-[auto] w-full bg-slate-100 px-16 py-5 ">
       <h1 className="text-2xl font-medium mb-5">Hello <span className="capitalize"> {userDetails.name},</span></h1>
       <div className="flex gap-3 flex-col">
         <span className="text-zinc-500 text-sm">Email: <span className="text-zinc-400"> {userDetails.email} </span></span>
