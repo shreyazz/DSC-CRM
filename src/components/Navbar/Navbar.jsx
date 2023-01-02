@@ -18,7 +18,7 @@ const Navbar = () => {
     window.location.reload();
   }
   return (
-    <div className="py-6 px-16 bg-white flex items-center justify-between w-full flex-row flex-wrap">
+    <div className="py-6 px-4 md:px-16 bg-white flex items-center justify-between w-full md:gap-0 gap-5 flex-col md:flex-row flex-wrap">
       <div
         className="logo cursor-pointer"
         onClick={() => {

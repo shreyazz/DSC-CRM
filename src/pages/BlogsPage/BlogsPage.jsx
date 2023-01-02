@@ -100,7 +100,7 @@ const BlogsPage = () => {
     }
   };
   return (
-    <section className=" bg-slate-100 py-3 px-16 h-[auto] min-h-[100vh] w-auto text-white flex flex-col justify-between sm:flex-col gap-10">
+    <section className=" bg-slate-100 py-3 px-4 md:px-16 h-[auto] min-h-[100vh] w-auto text-white flex flex-col justify-between sm:flex-col gap-10">
       <ToastContainer
         position="top-right"
         autoClose={5000}
